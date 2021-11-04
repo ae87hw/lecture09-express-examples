@@ -7,10 +7,12 @@ const http = require('http');
 const server = http.createServer((request, response) => {
     //check if the route is /
     if (request.url === '/') {
-        response.write("Hello  from node.js nodemon!");
+        response.write("Hello  from node.js nodemon! ahmed xdxd");
         response.end();
     }
 });
 //tell the server to listen on port 55000
 server.listen(55000);
-console.log("Server started and listening on port 55000");
+console.log("Server started and listening on port 55000");// while(condition) {
+    
+//}
