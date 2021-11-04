@@ -7,7 +7,7 @@ const http = require('http');
 const server = http.createServer((request, response) => {
     //check if the route is /
     if (request.url === '/') {
-        response.write("Hello  from node.js nodemon! ahmed xdxd");
+        response.write("Hello  from node.js nodemon! ahmed xdxd meow niggers");
         response.end();
     }
 });
